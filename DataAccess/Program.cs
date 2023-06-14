@@ -11,8 +11,6 @@ namespace DataAccess
             appContext.Objectives.Add(new Objective { Name = "FirstObjective" });
             appContext.Objectives.Add(new Objective { Name = "SecondObjective", Description = "Objective with descripton" });
             appContext.SaveChanges();
-
-            Console.WriteLine("");
         }
     }
 }
